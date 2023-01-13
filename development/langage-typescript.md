@@ -6,28 +6,46 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+- les types de bases ✔️
+- comment et pourquoi étendre une interface ✔️
+- les classes et les decorators ❌
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
+```javascript
+interface Cat {
+    name: string
+    age: number
+    cute: boolean
+}
 
-### Utilisation dans un projet ❌ / ✔️
+const cute_cat: Cat = {
+    name: 'Cat',
+    age: 5,
+    cute: true
+}
+
+const ugly_cat: Cat = {
+    name: 'Cat 2',
+    age: 8,
+    cute: false
+}
+```
+### Utilisation dans un projet ❌
 
 [lien github](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -40,7 +58,7 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ❌
 
 Description:
 
